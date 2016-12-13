@@ -22,7 +22,7 @@ font pango:Droid Sans 8
 # matrix green		#00FF00
 # mint green		#5FAA24
 # ubuntu orange  	#F37320
-set $color #1793d1
+set $color #C62828 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -129,11 +129,11 @@ mode "$mode_gaps_outer" {
 
 # start j4-dmenu-desktop                             background       text        box color     text in box
 # bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -p 'Arch Linux' -fn '8x16' -nb '#222222' -nf '#DDDDDD' -sb '#1793D1' -sf '#FFFFFF'"
-bindsym $mod+d exec "dmenu_run -i -p 'Arch Linux' -nb '#222222' -nf '#888888' -sb '$color' -sf '#DDDDDD'"
+#bindsym $mod+d exec "dmenu_run -i -p 'Arch Linux' -nb '#222222' -nf '#888888' -sb '$color' -sf '#DDDDDD'"
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 #--------------------------------------------------------------------------------
 
@@ -303,7 +303,7 @@ exec --no-startup-id "devmon --no-gui"
 exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
 exec xset +fp /usr/share/fonts/TTF
 exec --no-startup-id xrandr --output Virtual-1 --mode 1680x1050
-exec --no-startup-id feh --bg-scale ~/Downloads/server_room.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/lakeside_sunrise.jpg
 #--------------------------------------------------------------------------------
 
 # Custom KeyBinds
