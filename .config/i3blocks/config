@@ -1,0 +1,87 @@
+# '####::'#######::'########::'##::::::::'#######:::'######::'##:::'##::'######::
+# . ##::'##.... ##: ##.... ##: ##:::::::'##.... ##:'##... ##: ##::'##::'##... ##:
+# : ##::..::::: ##: ##:::: ##: ##::::::: ##:::: ##: ##:::..:: ##:'##::: ##:::..::
+# : ##:::'#######:: ########:: ##::::::: ##:::: ##: ##::::::: #####::::. ######::
+# : ##:::...... ##: ##.... ##: ##::::::: ##:::: ##: ##::::::: ##. ##::::..... ##:
+# : ##::'##:::: ##: ##:::: ##: ##::::::: ##:::: ##: ##::: ##: ##:. ##::'##::: ##:
+# '####:. #######:: ########:: ########:. #######::. ######:: ##::. ##:. ######::
+# ....:::.......:::........:::........:::.......::::......:::..::::..:::......:::
+
+# align
+# border
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+command=/usr/libexec/i3blocks/$BLOCK_NAME
+
+#separator=false
+#separator_block_width=2
+#border_top=0
+#border_left=0
+#border_right=0
+#border_bottom=3
+#border=91ba0d
+
+#full_text=
+#align=center
+#separator=false
+#separator_block_width=0
+
+
+[focused window]
+command=xtitle -s -r
+interval=persist
+
+[weather]
+instance=3647651
+command=/usr/libexec/i3blocks/weather
+interval=60
+
+[disk-home]
+label=
+command=/usr/libexec/i3blocks/disk $HOME
+instance=/home/virus69
+interval=30
+
+[cpu_usage]
+label=☢
+command=/usr/libexec/i3blocks/cpu_usage
+interval=10
+
+[temp]
+label=
+command=echo `sensors -A | grep -oP '^Core.+?  \+\K\d+' | awk '{k+=$1}END{print k/NR}'` °C
+interval=10
+
+[wifi]
+label=
+command=/usr/libexec/i3blocks/wifi
+instance=wlan0
+interval=10
+
+[volume]
+label=
+command=/usr/libexec/i3blocks/volume
+instance=Master
+interval=once
+signal=10
+
+[time]
+label=
+command=date '+%I:%M %p'
+interval=5
