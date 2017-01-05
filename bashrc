@@ -7,6 +7,14 @@
 
 alias ls='ls --color=auto'
 
+# enable bash-completion
+if [ -f /etc/bash_completion ]; then
+  . /etc/bash_completion
+fi
+
+GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
+
 #PS1='[\u@\h \W]\$ '
 PS1='\[\033[38;5;6m\][\[\033[38;5;118m\]\[\033[38;5;154m\]\[\033[38;5;10m\]● \[\033[0m\]\[\033[38;5;118m\]\[\033[38;5;244m\]\[\033[1m\]\[\033[38;5;32m\]$USER \[\033[38;5;243m\] @ \[\033[38;5;45m\]$HOSTNAME\[\033[0m\] \[\033[38;5;243m\] in \[\033[38;5;155m\] \w\[\033[38;5;6m\]]\[\033[38;5;118m\]\[\033[0m\]\[\033[38;5;10m\]\[\033[0m\] '
 
@@ -40,5 +48,4 @@ if [ "$TERM" = "linux" ]; then
     done
     clear
 fi
-
 
