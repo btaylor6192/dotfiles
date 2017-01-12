@@ -286,7 +286,7 @@ bar {
 #--------------------------------------------------------------------------------
 
 # class                 border  backgr. text   
-client.focused          $color  $color  #dddddd
+client.focused          #d64937 #d64937  #dddddd
 client.focused_inactive #333333 #333333 #888888
 client.unfocused        #333333 #333333 #888888
 client.urgent           #900000 #900000 #ffffff

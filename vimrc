@@ -14,3 +14,4 @@ set expandtab
 set smarttab
 
 set showmode
+
