@@ -3,10 +3,11 @@ URxvt*font: xft:DejaVu Sans Mono:size=10
 URxvt.letterSpace: -1
 
 ! Set transparecy, level, color, and foreground color
-URxvt.transparent: true
-URxvt.shading: 110
-URxvt.tintColor: #282828
+!URxvt.transparent: true
+!URxvt.shading: 110
+!URxvt.tintColor: #282828
 !URxvt.foreground: #e0e0e0
+URxvt*dynamicColors: on
 
 ! Turn off scrollbar
 URxvt.scrollbar: false
@@ -17,40 +18,41 @@ URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
 URxvt.colorUL: #7ECCB2
 
-! Color settings - numix-dr theme
+! Color settings - clockwork
 ! special
-*.foreground:   #a2a2a2
-*.background:   #282828
-*.cursorColor:  #a2a2a2
+*.foreground:   #afbeab
+*.background:   #03222c
+*.cursorColor:  #afbeab
 
 ! black
-*.color0:       #555555
-*.color8:       #888888
+*.color0:       #0a0f19
+*.color8:       #565e5e
 
 ! red
-*.color1:       #9c3528
-*.color9:       #d64937
+*.color1:       #621c1c
+*.color9:       #a04848
 
 ! green
-*.color2:       #61bc3b
-*.color10:      #86df5d
+*.color2:       #89915b
+*.color10:      #686f44
 
 ! yellow
-*.color3:       #f3b43a
-*.color11:      #fdd75a
+*.color3:       #a09f51
+*.color11:      #aeb268
 
 ! blue
-*.color4:       #0d68a8
-*.color12:      #0f75bd
+*.color4:       #03222c
+*.color12:      #06536c
 
 ! magenta
-*.color5:       #744560
-*.color13:      #9e5e83
+*.color5:       #411043
+*.color13:      #651668
 
 ! cyan
-*.color6:       #288e9c
-*.color14:      #37c3d6
+*.color6:       #44686f
+*.color14:      #4e8893
 
 ! white
-*.color7:       #a2a2a2
-*.color15:      #f9f9f9
+*.color7:       #989992
+*.color15:      #c0cccc
+
