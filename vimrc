@@ -9,7 +9,7 @@ set number
 hi clear
 
 hi Normal ctermbg=none
-hi Comment ctermfg=lightgrey
+hi Comment ctermfg=blue
 hi Statement ctermfg=red
 hi Constant ctermfg=green
 set tabstop=4

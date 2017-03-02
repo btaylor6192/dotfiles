@@ -275,13 +275,13 @@ bar {
     strip_workspace_numbers yes
     # mode hide
 	colors {
-		background #03222c
+		background #5a5047
 		separator  #222222
-		statusline #c0cccc
+		statusline #dbd6d1
 	
-		focused_workspace  #686f4  #afbeab #0a0f19
+		focused_workspace  #5a5047  #a39a90 #16130f
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace #24213a #000000 #565e5e
+		inactive_workspace #16130f #000000 #565e5e
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar
@@ -291,7 +291,7 @@ bar {
 #--------------------------------------------------------------------------------
 
 # class                 border  backgr. text   
-client.focused          #686f44 #686f44 #dddddd
+client.focused          #dddddd #82576d #dddddd
 client.focused_inactive #333333 #333333 #888888
 client.unfocused        #333333 #333333 #888888
 client.urgent           #900000 #900000 #ffffff
