@@ -277,9 +277,9 @@ bar {
 	colors {
 		background #5a5047
 		separator  #222222
-		statusline #dbd6d1
+		statusline #afc4db
 	
-		focused_workspace  #5a5047  #a39a90 #16130f
+		focused_workspace  #5a5047  #a39a90 #28211c
 		active_workspace  #6c9d9b #6c9d9b #888888
 		inactive_workspace #16130f #000000 #565e5e
 		urgent_workspace   #900000 #900000 #ffffff
@@ -291,7 +291,7 @@ bar {
 #--------------------------------------------------------------------------------
 
 # class                 border  backgr. text   
-client.focused          #dddddd #82576d #dddddd
+client.focused          #dddddd #666666 #dddddd
 client.focused_inactive #333333 #333333 #888888
 client.unfocused        #333333 #333333 #888888
 client.urgent           #900000 #900000 #ffffff
