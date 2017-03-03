@@ -1,5 +1,5 @@
 ! Set the Font
-URxvt*font: xft:DejaVu Sans Mono:size=10
+URxvt*font: xft:DejaVu Sans Mono:size=10.1
 URxvt.letterSpace: -1
 
 ! Set transparecy, level, color, and foreground color

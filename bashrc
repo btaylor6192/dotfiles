@@ -13,7 +13,7 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 GIT_PROMPT_ONLY_IN_REPO=1
-source ~/.bash-git-prompt/gitprompt.sh
+source ~/bash-git-prompt/gitprompt.sh
 GIT_PROMPT_THEME=Minimal
 
 rightprompt()
