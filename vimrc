@@ -12,6 +12,7 @@ hi Normal ctermbg=none
 hi Comment ctermfg=blue
 hi Statement ctermfg=red
 hi Constant ctermfg=green
+hi LineNr ctermfg=yellow
 set tabstop=4
 set shiftwidth=4
 set expandtab
