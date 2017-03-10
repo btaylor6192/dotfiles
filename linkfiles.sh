@@ -27,6 +27,12 @@ xrdb -load ~/.Xresources
 echo 'Setting wallpaper'
 feh --bg-scale ~/dotfiles/wallpapers/sky-clouds.jpg
 
+echo 'Cloning bash-git-prompt'
+
+cd ~
+
+git clone https://github.com/magicmonty/bash-git-prompt.git
+
 echo "Don't forget to reload i3!"
 
 
