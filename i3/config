@@ -22,10 +22,13 @@ font pango:Droid Sans 10
 # matrix green		#00FF00
 # mint green		#5FAA24
 # ubuntu orange  	#F37320
+
+# Color Definitions
 set $color #C62828 
 set $color12 #5faaca
 set $color11 #afadae
 set $color8 #434142
+set $color14 #264b54
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 # font pango:DejaVu Sans Mono 8
@@ -278,7 +281,7 @@ bar {
     # mode hide
 	colors {
 		background $color8
-		separator  #222222
+		separator  $color14
 		statusline $color11
 	
 		focused_workspace  #5a5047  #a39a90 #28211c
