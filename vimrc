@@ -9,9 +9,9 @@ set number
 hi clear
 
 hi Normal ctermbg=none
-hi Comment ctermfg=blue
+hi Comment ctermfg=cyan
 hi Statement ctermfg=red
-hi Constant ctermfg=green
+hi Constant ctermfg=blue
 hi LineNr ctermfg=yellow
 set tabstop=4
 set shiftwidth=4
