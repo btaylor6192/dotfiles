@@ -22,12 +22,14 @@ font pango:Droid Sans 10
 # matrix green		#00FF00
 # mint green		#5FAA24
 # ubuntu orange  	#F37320
-
-# Color Definitions
 set $color #C62828 
-set $color12 #5faaca
-set $color11 #afadae
+
+# Color Definitions - flat-earth theme
+set $color0 #231f20
+set $color1 #299cb1
 set $color8 #434142
+set $color11 #afadae
+set $color12 #5faaca
 set $color14 #264b54
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -284,9 +286,9 @@ bar {
 		separator  $color14
 		statusline $color11
 	
-		focused_workspace  #5a5047  #a39a90 #28211c
+		focused_workspace  $color8  $color0 $color1
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace #16130f #000000 #565e5e
+		inactive_workspace $color0 $color0 $color8 
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar
@@ -296,8 +298,8 @@ bar {
 #--------------------------------------------------------------------------------
 
 # class                 border  backgr. text   
-client.focused          #dddddd #666666 #dddddd
-client.focused_inactive #333333 #333333 #888888
+client.focused          $color1 $color8  $color0
+client.focused_inactive $color0 $color0 $color8 
 client.unfocused        #333333 #333333 #888888
 client.urgent           #900000 #900000 #ffffff
 
