@@ -311,7 +311,7 @@ exec --no-startup-id "devmon --no-gui"
 exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
 exec xset +fp /usr/share/fonts/TTF
 exec --no-startup-id xrandr --output Virtual-1 --mode 1680x1050
-exec --no-startup-id feh --bg-scale ~/dotfiles/numix-br.jpg
+exec --no-startup-id feh --bg-scale ~/dotfiles/wallpapers/blue-earth-flat.png
 #--------------------------------------------------------------------------------
 
 # Custom KeyBinds
