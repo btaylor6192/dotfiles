@@ -33,9 +33,14 @@ set $color5 #c6c4c5
 set $color6 #264b54
 set $color7 #4e7e94
 set $color8 #434142
+set $color9 #299cb1
+set $color10 #28b8d2
 set $color11 #afadae
 set $color12 #5faaca
+set $color13 #c6c4c5
 set $color14 #264b54
+set $color15 #4e7e94
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 # font pango:DejaVu Sans Mono 8
