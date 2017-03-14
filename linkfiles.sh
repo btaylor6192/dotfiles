@@ -1,14 +1,16 @@
 #! /bin/bash
 # This file will create symlinks to specified dotfiles
+WALLPAPER=~/dotfiles/wallpapers/blue-earth-flat.png
 
-echo 'Backing up current config files...'
+echo 'Removing current links...'
 
-mv ~/.Xresources ~/.Xresources.bak
-mv ~/.bashrc ~/.bashrc.bak
-mv ~/.config/i3/config ~/.config/i3/config.bak
-mv ~/.vimrc ~/.vimrc.bak
-mv ~/.i3/i3status.conf ~/.i3/i3status.conf.bak
-mv ~/.archey3.cfg ~/.archey3.cfg.bak
+rm ~/.Xresources 
+rm ~/.bashrc 
+rm ~/.config/i3/config 
+rm ~/.vimrc 
+rm ~/.i3/i3status.conf
+rm ~/.archey3.cfg
+rm ~/.dir_colors
 
 echo 'Linking new config files...'
  
@@ -25,7 +27,7 @@ echo 'Loading Xresources'
 xrdb -load ~/.Xresources
 
 echo 'Setting wallpaper'
-feh --bg-scale ~/dotfiles/wallpapers/sky-clouds.jpg
+feh --bg-scale $WALLPAPER
 
 echo 'Cloning bash-git-prompt'
 
