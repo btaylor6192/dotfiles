@@ -210,10 +210,10 @@ bindsym $mod+a focus parent
 bindsym $mod+n exec i3-input -F 'rename workspace to "%s"' -P 'New name for this workspace: '
 
 # Name the workspaces
-set $tag1 "1 urxvt"
-set $tag2 "2 firefox"
-set $tag3 "3 geany"
-set $tag4 "4 thunar"
+set $tag1 "1 terminal"
+set $tag2 "2 browser"
+set $tag3 "3 ide"
+set $tag4 "4 filemanager"
 
 # switch to workspace
 bindsym $mod+1 workspace $tag1
