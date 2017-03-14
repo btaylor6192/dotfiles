@@ -253,7 +253,7 @@ hi x255_Grey93 ctermfg=255 guifg=#eeeeee "rgb=238,238,238
 hi Normal ctermbg=none
 hi Comment ctermfg=green
 hi Statement ctermfg=144
-hi Constant ctermfg=grey
+hi Constant ctermfg=114
 hi LineNr ctermfg=magenta
 hi Function ctermfg=51
 
