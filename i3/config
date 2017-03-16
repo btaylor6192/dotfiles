@@ -296,7 +296,7 @@ bar {
 		separator  $color14
 		statusline $color11
 	
-		focused_workspace  $color8  $color0 $color2
+		focused_workspace  $color8  $color6 $color2
 		active_workspace  #6c9d9b #6c9d9b #888888
 		inactive_workspace $color0 $color0 $color8 
 		urgent_workspace   #900000 #900000 #ffffff
