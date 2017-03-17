@@ -1,0 +1,100 @@
+! Set the Font
+URxvt*font: xft:DejaVu Sans Mono:size=10:antialias=true
+URxvt.letterSpace: -1
+URxvt.linespace: 1
+
+! Set transparecy, level, color, and foreground color
+!URxvt.transparent: true
+!URxvt.shading: 110
+!URxvt.tintColor: #282828
+!URxvt.foreground: #e0e0e0
+URxvt*dynamicColors: on
+
+! Turn off scrollbar
+URxvt.scrollbar: false
+URxvt.scrollstyle: xterm
+URxvt*scrollColor: #28b8d2
+! Clickable URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+URxvt.colorUL: #7ECCB2
+
+! Color settings - bespin
+! special
+!*.foreground:   #8a8986
+!*.background:   #28211c
+!*.cursorColor:  #8a8986
+!
+!! black
+!*.color0:       #28211c
+!*.color8:       #666666
+!
+!! red
+!*.color1:       #cf6a4c
+!*.color9:       #cf6a4c
+!
+!! green
+!*.color2:       #54be0d
+!*.color10:      #54be0d
+!
+!! yellow
+!*.color3:       #f9ee98
+!*.color11:      #f9ee98
+!
+!! blue
+!*.color4:       #5ea6ea
+!*.color12:      #5ea6ea
+!
+!! magenta
+!*.color5:       #9b859d
+!*.color13:      #9b859d
+!
+!! cyan
+!*.color6:       #afc4db
+!*.color14:      #afc4db
+!
+!! white
+!*.color7:       #8a8986
+!*.color15:      #baae9e
+
+! special
+*.foreground:   #c6c4c5
+*.background:   #231f20
+*.cursorColor:  #c6c4c5
+
+! black
+*.color0:       #231f20
+*.color8:       #434142
+
+! red
+*.color1:       #299cb1
+*.color9:       #299cb1
+
+! green
+*.color2:       #28b8d2
+*.color10:      #28b8d2
+
+! yellow
+*.color3:       #afadae
+*.color11:      #afadae
+
+! blue
+*.color4:       #5faaca
+*.color12:      #5faaca
+
+! magenta
+*.color5:       #c6c4c5
+*.color13:      #c6c4c5
+
+! cyan
+*.color6:       #264b54
+*.color14:      #264b54
+
+! white
+*.color7:       #4e7e94
+*.color15:      #4e7e94
+
+
+
+
