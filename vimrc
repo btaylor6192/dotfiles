@@ -260,8 +260,8 @@ hi Function ctermfg=51
 " Tab behavior
 set tabstop=4
 set shiftwidth=4
-set expandtab
-set smarttab
+" set expandtab
+" set smarttab
 
 set showmode
 
