@@ -13,7 +13,7 @@ URxvt*dynamicColors: on
 ! Turn off scrollbar
 URxvt.scrollbar: false
 URxvt.scrollstyle: xterm
-URxvt*scrollColor: #28b8d2
+URxvt*scrollColor: #ddddbd
 ! Clickable URLs
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: firefox
@@ -59,39 +59,42 @@ URxvt.colorUL: #7ECCB2
 !*.color15:      #baae9e
 
 ! special
-*.foreground:   #ddddbd
-*.background:   #293236
-*.cursorColor:  #ddddbd
+*.foreground:   #c6c4c5
+*.background:   #231f20
+*.cursorColor:  #c6c4c5
 
 ! black
 *.color0:       #231f20
 *.color8:       #434142
 
 ! red
-*.color1:       #a6492f
-*.color9:       #a6492f
+*.color1:       #299cb1
+*.color9:       #299cb1
 
 ! green
-*.color2:       #3e955f
-*.color10:      #3e955f
+*.color2:       #28b8d2
+*.color10:      #28b8d2
 
 ! yellow
-*.color3:       #b2b077
-*.color11:      #b2b077
+*.color3:       #afadae
+*.color11:      #afadae
 
 ! blue
-*.color4:       #435fc3
-*.color12:      #435fc3
+*.color4:       #5faaca
+*.color12:      #5faaca
 
 ! magenta
-*.color5:       #7d0698
-*.color13:      #7d0698
+*.color5:       #c6c4c5
+*.color13:      #c6c4c5
 
 ! cyan
-*.color6:       #29b9b0
-*.color14:      #29b9b0
+*.color6:       #264b54
+*.color14:      #264b54
 
 ! white
-*.color7:       #b8bec0
-*.color15:      #b8bec0
+*.color7:       #4e7e94
+*.color15:      #4e7e94
+
+
+
 
