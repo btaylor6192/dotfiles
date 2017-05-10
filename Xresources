@@ -59,13 +59,13 @@ URxvt.colorUL: #7ECCB2
 !*.color15:      #baae9e
 
 ! special
-*.foreground:   #ddddbd
+*.foreground:   #b8bec0
 *.background:   #293236
-*.cursorColor:  #ddddbd
+*.cursorColor:  #b8bec0
 
 ! black
 *.color0:       #231f20
-*.color8:       #231f20
+*.color8:       #434142
 
 ! red
 *.color1:       #b5583e
@@ -94,7 +94,4 @@ URxvt.colorUL: #7ECCB2
 ! white
 *.color7:       #b8bec0
 *.color15:      #b8bec0
-
-
-
 
