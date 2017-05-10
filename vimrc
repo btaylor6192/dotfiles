@@ -250,12 +250,14 @@ hi x254_Grey89 ctermfg=254 guifg=#e4e4e4 "rgb=228,228,228
 hi x255_Grey93 ctermfg=255 guifg=#eeeeee "rgb=238,238,238
 
 " Color highlights
-hi Normal ctermbg=none
-hi Comment ctermfg=green
-hi Statement ctermfg=144
-hi Constant ctermfg=114
-hi LineNr ctermfg=magenta
-hi Function ctermfg=51
+" hi Normal ctermbg=none
+hi Comment ctermfg=red
+hi Statement ctermfg=cyan
+hi Constant ctermfg=green
+hi LineNr ctermfg=white
+hi Function ctermfg=yellow
+hi Keyword ctermfg=magenta
+hi Number ctermfg=blue
 
 " Tab behavior
 set tabstop=4
