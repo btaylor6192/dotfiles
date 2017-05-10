@@ -25,21 +25,23 @@ set $color #C62828
 
 # Color Definitions - flat-earth theme
 set $color0 #231f20
-set $color1 #299cb1
-set $color2 #28b8d2
-set $color3 #afadae
-set $color4 #5faaca
-set $color5 #c6c4c5
-set $color6 #264b54
-set $color7 #4e7e94
-set $color8 #434142
+set $color1 #b5583e
+set $color2 #3e955f
+set $color3 #b2b077
+set $color4 #435fc3
+set $color5 #7d0698
+set $color6 #29b9b0
+set $color7 #b8bec0
+set $color8 #231f20
 set $color9 #299cb1
-set $color10 #28b8d2
-set $color11 #afadae
-set $color12 #5faaca
-set $color13 #c6c4c5
-set $color14 #264b54
-set $color15 #4e7e94
+set $color10 #3e955f
+set $color11 #b2b077
+set $color12 #435fc3
+set $color13 #7d0698
+set $color14 #29b9b0
+set $color15 #b8bec0
+set $colorbg #293236
+set $colorfg #b8bec0
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -292,23 +294,18 @@ bar {
     strip_workspace_numbers yes
     # mode hide
 	colors {
-		background $color8
+		background #293236
 		separator  $color14
 		statusline $color11
 	
-		focused_workspace  $color8  $color6 $color2
+		focused_workspace  $colorbg $colorbg $color7
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace $color0 $color0 $color8 
+		inactive_workspace $color0 $color0 $color7777777 
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar
         status_command i3status -c $HOME/.i3/i3status.conf
-}
-
-#--------------------------------------------------------------------------------
-
-# class                 border  backgr. text   
-client.focused          $color5 $color5  $color0
+} #-------------------------------------------------------------------------------- # class                 border  backgr. text   client.focused          $color5 $color5  $color0
 client.focused_inactive $color0 $color0 $color8 
 client.unfocused        $color0 $color0 $color0
 client.urgent           #900000 #900000 #ffffff

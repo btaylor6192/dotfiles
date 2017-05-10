@@ -19,7 +19,7 @@ ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/i3/config ~/.config/i3/config
 ln -s ~/dotfiles/vimrc ~/.vimrc
 # TODO: add logic for i3status option for different profiles
-ln -s ~/dotfiles/i3status.conf ~/.i3/i3status.conf
+ln -s ~/dotfiles/i3status-vm ~/.i3/i3status.conf
 ln -s ~/dotfiles/dir_colors ~/.dir_colors
 ln -s ~/dotfiles/archey3.cfg ~/.archey3.cfg
 #ln -s ~/dotfiles/config.fish ~/.config/fish/config.fish
