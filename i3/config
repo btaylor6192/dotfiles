@@ -34,7 +34,7 @@ set $color4 #435fc3
 set $color5 #7d0698
 set $color6 #29b9b0
 set $color7 #929799
-set $color8 #4b4748
+set $color8 #5c5b5b
 set $color9 #dc7d62
 set $color10 #4fc37b
 set $color11 #dad78d
@@ -300,7 +300,7 @@ bar {
 	
 		focused_workspace  $colorbg $colorbg $color15
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace $color0 $color0 $color7 
+		inactive_workspace $color0 $colorbg $color8 
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar

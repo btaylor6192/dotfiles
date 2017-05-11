@@ -64,7 +64,7 @@ URxvt.colorUL: #7ECCB2
 
 ! black
 *.color0:       #231f20
-*.color8:       #4b4748
+*.color8:       #5c5b5b
 
 ! red
 *.color1:       #b5583e
