@@ -297,8 +297,8 @@ bar {
     # mode hide
 	colors {
 		background $colorbg
-		separator  $color14
-		statusline $color11
+		separator  $color0
+		statusline $color15
 	
 		focused_workspace  $colorbg $colorbg $color15
 		active_workspace  #6c9d9b #6c9d9b #888888
