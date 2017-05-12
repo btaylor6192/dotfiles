@@ -1,9 +1,9 @@
 general {
         output_format = "i3bar"
         colors = true
-	color_good = '#28b8d2'
-	color_degraded = '#4e7e94'
-	color_bad      = '#231f20'
+	color_good = '#3e955f'
+	color_degraded = '#b2b077'
+	color_bad      = '#b5583e'
         interval = 5
 }
 
@@ -56,7 +56,7 @@ path_exists VPN {
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M"
+        format = "%m-%d-%Y %H:%M"
 }
 
 load {

@@ -296,7 +296,7 @@ bar {
     strip_workspace_numbers yes
     # mode hide
 	colors {
-		background #293236
+		background $colorbg
 		separator  $color14
 		statusline $color11
 	
