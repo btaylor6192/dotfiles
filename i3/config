@@ -43,6 +43,8 @@ set $color13 #ad23cd
 set $color14 #2bd9ce
 set $color15 #b8bec0
 
+set $wallpaper ~/dotfiles/wallpapers/low_poly_planet.png
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 # font pango:DejaVu Sans Mono 8
@@ -317,7 +319,7 @@ exec --no-startup-id "devmon --no-gui"
 exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
 exec xset +fp /usr/share/fonts/TTF
 exec --no-startup-id xrandr --output Virtual-1 --mode 1680x1050
-exec --no-startup-id feh --bg-scale ~/dotfiles/wallpapers/blue-earth-flat.png
+exec --no-startup-id feh --bg-scale $wallpaper
 exec --no-startup-id redshift -l 30.22:-92.01
 #--------------------------------------------------------------------------------
 
