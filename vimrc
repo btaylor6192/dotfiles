@@ -6,6 +6,8 @@ set background=dark
 syntax on
 set hlsearch
 set number
+set listchars=tab:>-,trail:-
+set list
 hi clear
 " 256 COLOR DEFINITONS
 hi x016_Grey0 ctermfg=16 guifg=#000000 "rgb=0,0,0
