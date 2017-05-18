@@ -1,5 +1,5 @@
 ! Set the Font
-URxvt*font: xft:DejaVu Sans Mono:size=10:antialias=true
+URxvt*font: xft:DejaVu Sans Mono:size=9:antialias=true
 URxvt.letterSpace: -1
 URxvt.linespace: 1
 
