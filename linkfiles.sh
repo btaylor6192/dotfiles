@@ -1,6 +1,6 @@
 #! /bin/bash
 # This file will create symlinks to specified dotfiles
-WALLPAPER=~/dotfiles/wallpapers/blue-earth-flat.png
+WALLPAPER=~/dotfiles/wallpapers/low_poly_planet.png
 
 echo 'Removing current links...'
 
