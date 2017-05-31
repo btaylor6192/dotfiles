@@ -25,7 +25,7 @@ rightprompt()
 export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;23m\] @ \[$(tput sgr0)\]\[\033[38;5;255m\]\h\[$(tput sgr0)\]\[\033[38;5;23m\] [\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\[\033[38;5;23m\]]\[$(tput sgr0)\]"
 #export PS1="\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;14m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] [\[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]"
 
-export TERM=rxvt-256color
+#export TERM=rxvt-256color
 
 export EDITOR=vim
 
