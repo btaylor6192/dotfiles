@@ -263,7 +263,7 @@ hi Number ctermfg=blue
 
 " Tab behavior
 set tabstop=4
-set shiftwidth=4
+"set shiftwidth=4
 " set expandtab
 " set smarttab
 
