@@ -262,7 +262,7 @@ hi Keyword ctermfg=magenta
 hi Number ctermfg=blue
 
 " Tab behavior
-set tabstop=4
+set tabstop=2
 "set shiftwidth=4
 " set expandtab
 " set smarttab
