@@ -194,4 +194,21 @@ bar {
     }
 }
 
+# Back and forth workplace switching
+workspace_auto_back_and_forth yes
+
+# Shutdown, Reboot, Lock Screen, and Logout #657b83
+set $sysmenu "system:  [P]oweroff  re[B]oot  [L]ock  logou[T] [S]uspend"
+bindsym $mod+Shift+Return      mode $sysmenu
+mode $sysmenu {
+    bindsym p         exec shutdown -P now
+    bindsym b         exec shutdown -r now
+    bindsym l         exec sh ~/.i3/i3lock.sh, mode "default"
+    bindsym t         exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s         exec systemctl suspend
+    bindsym Return    mode "default"
+    bindsym Escape    mode "default"
+}
+
+
 include /etc/sway/config.d/*
