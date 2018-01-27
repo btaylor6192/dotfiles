@@ -29,7 +29,7 @@ URxvt.colorUL: #7ECCB2
 ! Color settings - low_poly 
 ! special
 *.foreground:   #b8bec0
-*.background:   #293236
+*.background:   #323232
 *.cursorColor:  #b8bec0
 
 ! black
