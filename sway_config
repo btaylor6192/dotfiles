@@ -210,5 +210,7 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
+# Startup
+exec xrdb load ~/.Xresources
 
 include /etc/sway/config.d/*
