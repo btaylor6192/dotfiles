@@ -34,6 +34,10 @@ PS2='\[\033[38;5;6m\][\[\033[38;5;118m\]\[\033[38;5;154m\]\[\033[38;1m\]● \[\0
 #archey3
 xrdb load .Xresources
 
+if [[ $TERM == @(xterm|screen) ]]; then
+		export TERM=$TERM-256color;
+fi
+
 #eval $(dircolors -b ~/.dir_colors)
 
 #echo "Would you like to start the fish shell? [y/n[?"
