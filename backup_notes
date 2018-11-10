@@ -1,0 +1,28 @@
+borg create --progress --stats borg@192.168.1.128:/home/borg/fedora-lt::'Tuesday' /home/blaine --exclude '/home/*/.cache/*' --exclude '/home/*/.steam*' --exclude '/home/*/.local/share/*'
+
+borg extract borg@192.168.1.128:/home/borg/fedora-lt::Tuesday
+
+borg create /path/to/repo::{hostname}-{user}-{now} ~
+borg create /home/blaine::{hostname}-{user}-{now} ~
+borg
+borg config
+borg config-h
+borg init --encryption=repokey /home/blaine
+sudo mkdir /borgbackup
+borg init --encryption=repokey root@192.168.1.122:/mnt/disk1/backups/borg_backups
+borg init --encryption=repokey /borgbackup
+borg list
+borg init --encryption=repokey /tmp/borgbackup
+borg list
+borg list /tmp/borgbackup
+borg create /tmpborgbackup::Monday ~/
+borg create /tmp/borgbackup::Monday ~/
+borg create --progress /tmp/borgbackup::Monday ~/
+rm /tmp/borgbackup
+rm -rf /tmp/borgbackup
+borg
+borg create --progress /home/blaine::Monday root@192.168.1.122:/mnt/disk1/backups/borg_backups
+borg list
+borg list /home/blaine
+borg init --encryption=repokey /home/blaine
+
