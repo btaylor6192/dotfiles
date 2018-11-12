@@ -1,9 +1,9 @@
 ! Set the Font
-URxvt*font: xft:DejaVu Sans Mono:size=9.5:antialias=true
-			xft:FreeMono:size=9:antialias=true, \
-			xft:Noto Sans:size=9:antialias=true, \
-			xft:Adobe Source Code Pro:size=9:antialias=true, \
-			xft:unifont:style=Medium:antialias=false
+URxvt*font: xft:DejaVu Sans Mono for Powerline:size=9:antialias=true
+!			xft:FreeMono:size=9:antialias=true, \
+!			xft:Noto Sans:size=9:antialias=true, \
+!			xft:Adobe Source Code Pro:size=9:antialias=true, \
+!			xft:unifont:style=Medium:antialias=false
 URxvt.letterSpace: -1
 URxvt.linespace: 1
 URxvt.termName: rxvt-unicode
