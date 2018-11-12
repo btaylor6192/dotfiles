@@ -301,9 +301,9 @@ bar {
 		separator  $color0
 		statusline $color15
 	
-		focused_workspace  #AD938A #0F1221 #DCC4AA
+		focused_workspace #0F1221 #0F1221 #DCC4AA
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace $color0 #0F1221 $color8 
+		inactive_workspace #0F1221 #0F1221 $color8 
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar
