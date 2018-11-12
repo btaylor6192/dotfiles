@@ -67,10 +67,10 @@ bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # Back and forth workplace switching
 workspace_auto_back_and_forth yes
@@ -155,7 +155,7 @@ mode "$mode_gaps_outer" {
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
- bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -b -i -p 'Arch Linux' -nb '$colorbg' -nf '$color8' -sb '$colorbg' -sf '$color15' -l 10"
+ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -b -i -p 'Arch Linux' -nb '#0F1221' -nf '$color8' -sb '#B88B73' -sf '#0F1221' -l 10"
 
 #--------------------------------------------------------------------------------
 
@@ -184,10 +184,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+Shift+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+Shift+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
