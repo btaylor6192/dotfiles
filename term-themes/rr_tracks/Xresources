@@ -1,0 +1,101 @@
+! Set the Font
+!URxvt*font: xft:Deja Vu Sans Mono:size=10:antialias=true,style=Regular
+URxvt.font:                     xft:DejaVu Sans Mono:autohint=true:size=12
+URxvt.boldFont:                 xft:DejaVu Sans Mono:autohint=true:bold:size=12
+URxvt.italicFont:               xft:DejaVu Sans Mono:autohint=true:italic:size=12
+URxvt.boldItalicFont:           xft:DejaVu Sans Mono:autohint=true:bold:italic:size=12
+URxvt.letterSpace: 1
+URxvt.linespace: 1
+
+! Set transparecy, level, color, and foreground color
+URxvt.transparent: true
+URxvt.shading: 5
+!URxvt.tintColor: #282828
+!URxvt.foreground: #e0e0e0
+URxvt*dynamicColors: on
+
+! Turn off scrollbar
+URxvt.scrollbar: false
+URxvt.scrollstyle: xterm
+URxvt*scrollColor: #ddddbd
+! Clickable URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+URxvt.colorUL: #7ECCB2
+
+! Color settings - bespin
+! special
+!*.foreground:   #8a8986
+!*.background:   #28211c
+!*.cursorColor:  #8a8986
+!
+!! black
+!*.color0:       #28211c
+!*.color8:       #666666
+!
+!! red
+!*.color1:       #cf6a4c
+!*.color9:       #cf6a4c
+!
+!! green
+!*.color2:       #54be0d
+!*.color10:      #54be0d
+!
+!! yellow
+!*.color3:       #f9ee98
+!*.color11:      #f9ee98
+!
+!! blue
+!*.color4:       #5ea6ea
+!*.color12:      #5ea6ea
+!
+!! magenta
+!*.color5:       #9b859d
+!*.color13:      #9b859d
+!
+!! cyan
+!*.color6:       #afc4db
+!*.color14:      #afc4db
+!
+!! white
+!*.color7:       #8a8986
+!*.color15:      #baae9e
+
+! special
+*.foreground:   #b8bec0
+*.background:   #293236
+*.cursorColor:  #b8bec0
+
+! black
+*.color0:       #231f20
+*.color8:       #434142
+
+! red
+*.color1:       #b5583e
+*.color9:       #b5583e
+
+! green
+*.color2:       #3e955f
+*.color10:      #3e955f
+
+! yellow
+*.color3:       #b2b077
+*.color11:      #b2b077
+
+! blue
+*.color4:       #435fc3
+*.color12:      #435fc3
+
+! magenta
+*.color5:       #7d0698
+*.color13:      #7d0698
+
+! cyan
+*.color6:       #29b9b0
+*.color14:      #29b9b0
+
+! white
+*.color7:       #b8bec0
+*.color15:      #b8bec0
+

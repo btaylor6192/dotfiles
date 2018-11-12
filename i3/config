@@ -43,7 +43,8 @@ set $color13 #ad23cd
 set $color14 #2bd9ce
 set $color15 #b8bec0
 
-set $wallpaper ~/dotfiles/wallpapers/low_poly_planet.png
+#set $wallpaper ~/dotfiles/wallpapers/low_poly_planet.png
+set $wallpaper ~/Downloads/rrtracks.jpg
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -296,7 +297,7 @@ bar {
     strip_workspace_numbers yes
     # mode hide
 	colors {
-		background $colorbg
+		background #0f1221
 		separator  $color0
 		statusline $color15
 	
@@ -318,9 +319,10 @@ client.urgent           #900000 #900000 #ffffff
 exec --no-startup-id "devmon --no-gui"
 exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
 exec xset +fp /usr/share/fonts/TTF
-exec --no-startup-id xrandr --output Virtual-1 --mode 1680x1050
-exec --no-startup-id feh --bg-scale $wallpaper
+exec --no-startup-id xrandr --auto && xrandr --output LVDS-1 --off
 exec --no-startup-id redshift -l 30.22:-92.01
+#exec --no-startup-id /home/blaine/monitor.sh
+exec --no-startup-id feh --bg-scale $wallpaper
 #--------------------------------------------------------------------------------
 
 # Custom KeyBinds
@@ -366,3 +368,5 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
+# Multi-Monitor binding
+bindsym $mod+Shift+s exec --no-startup-id /home/blaine/monitor.sh

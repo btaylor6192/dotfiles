@@ -14,14 +14,14 @@ rm ~/.dir_colors
 
 echo 'Linking new config files...'
  
-ln -s ~/dotfiles/Xresources ~/.Xresources
-ln -s ~/dotfiles/bashrc ~/.bashrc
-ln -s ~/dotfiles/i3/config ~/.config/i3/config
-ln -s ~/dotfiles/vimrc ~/.vimrc
+ln -s ~/projects/dotfiles/Xresources ~/.Xresources
+ln -s ~/projects/dotfiles/bashrc ~/.bashrc
+ln -s ~/projects/dotfiles/i3/config ~/.config/i3/config
+ln -s ~/projects/dotfiles/vimrc ~/.vimrc
 # TODO: add logic for i3status option for different profiles
-ln -s ~/dotfiles/i3status-lenovo ~/.i3/i3status.conf
-ln -s ~/dotfiles/dir_colors ~/.dir_colors
-ln -s ~/dotfiles/archey3.cfg ~/.archey3.cfg
+ln -s ~/projects/dotfiles/i3status-lenovo ~/.i3/i3status.conf
+ln -s ~/projects/dotfiles/dir_colors ~/.dir_colors
+ln -s ~/projects/dotfiles/archey3.cfg ~/.archey3.cfg
 #ln -s ~/dotfiles/config.fish ~/.config/fish/config.fish
 
 echo 'Loading Xresources'

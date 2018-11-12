@@ -344,3 +344,5 @@ mode $sysmenu {
     bindsym Escape    mode "default"
 }
 
+# Multi-Monitor binding
+bindsym $mod+Shift+s exec --no-startup-id /home/blaine/monitor
