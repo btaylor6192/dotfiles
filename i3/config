@@ -301,9 +301,9 @@ bar {
 		separator  $color0
 		statusline $color15
 	
-		focused_workspace  $colorbg $colorbg $color15
+		focused_workspace  #AD938A #0F1221 #DCC4AA
 		active_workspace  #6c9d9b #6c9d9b #888888
-		inactive_workspace $color0 $colorbg $color8 
+		inactive_workspace $color0 #0F1221 $color8 
 		urgent_workspace   #900000 #900000 #ffffff
 	}
 	# status_command $HOME/.i3/conky-i3bar
@@ -356,7 +356,7 @@ bindsym $mod+m exec amixer -q set Master mute
 #--------------------------------------------------------------------------------
 
 # Shutdown, Reboot, Lock Screen, and Logout #657b83
-set $sysmenu "system:  [P]oweroff  re[B]oot  [L]ock  logou[T] [S]uspend"
+set $sysmenu "system:  [p]oweroff  re[b]oot  [l]ock  logou[t] [s]uspend"
 bindsym $mod+Shift+Return      mode $sysmenu
 mode $sysmenu {
     bindsym p         exec shutdown -P now

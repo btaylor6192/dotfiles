@@ -10,8 +10,8 @@ URxvt.termName: rxvt-unicode
 URxvt.imLocale: en_US.utf8
 
 ! Set transparecy, level, color, and foreground color
-!URxvt.transparent: true
-!URxvt.shading: 110
+URxvt.transparent: true
+URxvt.shading: 5
 !URxvt.tintColor: #282828
 !URxvt.foreground: #e0e0e0
 URxvt*dynamicColors: on
