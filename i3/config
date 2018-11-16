@@ -319,10 +319,11 @@ client.urgent           #900000 #900000 #ffffff
 exec --no-startup-id "devmon --no-gui"
 exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
 exec xset +fp /usr/share/fonts/TTF
-exec --no-startup-id xrandr --auto && xrandr --output LVDS-1 --off
+exec --no-startup-id xrandr --auto #&& xrandr --output LVDS-1 --off
 exec --no-startup-id redshift -l 30.22:-92.01
 #exec --no-startup-id /home/blaine/monitor.sh
 exec --no-startup-id feh --bg-scale $wallpaper
+exec --no-startup-id wal -i ~/Downloads/rrtracks.jpg
 #--------------------------------------------------------------------------------
 
 # Custom KeyBinds
