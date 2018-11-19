@@ -310,6 +310,7 @@ bar {
         status_command i3status -c $HOME/.i3/i3status.conf
 }
 #--------------------------------------------------------------------------------
+# Window borders
 # class                 border  backgr. text
 client.focused          #F2DDCE #F2DDCE #F2DDCE
 client.focused_inactive #907570 #907570 #907570
@@ -320,7 +321,7 @@ client.urgent           #900000 #900000 #ffffff
 
 # Startup programs
 exec --no-startup-id "devmon --no-gui"
-exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf        
+exec --no-startup-id /usr/bin/compton --config ~/.i3/compton.conf
 exec xset +fp /usr/share/fonts/TTF
 exec --no-startup-id xrandr --auto #&& xrandr --output LVDS-1 --off
 exec --no-startup-id redshift -l 30.22:-92.01
