@@ -370,7 +370,8 @@ mode $sysmenu {
 }
 
 # Multi-Monitor binding
-bindsym $mod+Shift+s exec --no-startup-id /home/blaine/monitor.sh
+#bindsym $mod+Shift+s exec --no-startup-id /home/blaine/monitor.sh
+bindsym $mod+g exec xrandr --output VGA-1 --off && xrandr --auto
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
