@@ -310,10 +310,10 @@ bar {
         status_command i3status -c $HOME/.i3/i3status.conf
 }
 #--------------------------------------------------------------------------------
-# class                 border  backgr. text   client.focused          $color5 $color5  $color0
-
-client.focused_inactive $color0 $color0 $color8 
-client.unfocused        $color0 $color0 $color0
+# class                 border  backgr. text
+client.focused          #F2DDCE #F2DDCE #F2DDCE
+client.focused_inactive #907570 #907570 #907570
+client.unfocused        #0F1221 #0F1221 #0F1221
 client.urgent           #900000 #900000 #ffffff
 
 #--------------------------------------------------------------------------------
