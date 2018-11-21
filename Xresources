@@ -17,9 +17,9 @@ URxvt.tintColor: #0F1221
 URxvt*dynamicColors: on
 
 ! Turn off scrollbar
-URxvt.scrollbar: false
+URxvt.scrollbar: true
 URxvt.scrollstyle: xterm
-URxvt*scrollColor: #ddddbd
+URxvt*scrollColor: #AD938A
 ! Clickable URLs
 URxvt.perl-ext-common: default,matcher
 URxvt.url-launcher: firefox
